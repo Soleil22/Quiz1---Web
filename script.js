@@ -17,6 +17,12 @@ function newWord() {
 
 document.getElementById('randomWord').addEventListener('click', () => {
     newWord()
+    //console.log("ola")
+})
+
+document.getElementById('resetButton').addEventListener('click', () => {
+    console.log("ola")
+    document.getElementById('userInput').value = "";
 })
 
 newWord();
